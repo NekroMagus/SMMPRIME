@@ -1,0 +1,24 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+}
+.faq {
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.likeH1 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.likeH3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
