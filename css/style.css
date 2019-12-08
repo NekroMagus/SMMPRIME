@@ -54,3 +54,8 @@ tr{
 .btn-info, .btn {
     border-radius: 20px;
 }
+
+ul,ol,li {
+    margin: 0;
+    padding: 0;
+}

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,14 +17,18 @@
 
     <link rel="stylesheet" type="text/css" href="https://perfectcdn.com/7e2c2ee5-5b96-4526-90f7-a80aaf205f56/">
     <link rel="stylesheet" type="text/css" href="https://perfectcdn.com/5f11df69-7e2c-4a91-81d6-664290a84b29/">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../css/style.css"/>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-static-top ">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -43,7 +46,7 @@
                 <li><a href="/orders">Orders</a></li>
                 <li><a href="/addfunds">Add funds</a></li>
                 <li><a href="/api">API</a></li>
-                <li class="active" ><a href="/tickets">Tickets</a></li>
+                <li class="active"><a href="/tickets">Tickets</a></li>
                 <li><a href="/terms">Terms</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right navbar-right-block">
@@ -60,7 +63,7 @@
     <div class="row">
         <div class="col-md-7">
             <div class="well">
-                <form  method="post" action="" id="ticketsend">
+                <form method="post" action="" id="ticketsend">
                     <div class="alert alert-dismissible alert-danger ticket-danger " style="display: none">
                         <button type="button" class="close">&times;</button>
                         <div></div>
@@ -73,20 +76,37 @@
                         <label for="message" class="control-label">Message</label>
                         <textarea class="form-control" rows="7" id="message" name="TicketForm[message]"></textarea>
                     </div>
-                    <input type="hidden" name="_csrf" value="PO-FX4fysJkK7sCP6Kwq1pe2u37mTqce6rxAUEl0zsR6hOEO6aH50VOalc6hzWKboeOLKIsgxmq583hjLEOatw==">
+                    <input type="hidden" name="_csrf"
+                           value="PO-FX4fysJkK7sCP6Kwq1pe2u37mTqce6rxAUEl0zsR6hOEO6aH50VOalc6hzWKboeOLKIsgxmq583hjLEOatw==">
                     <button type="submit" class="btn btn-info">Submit ticket</button>
                 </form>
             </div>
         </div>
         <div class="col-md-5">
-            <div class="well ">
-                фыва
+            <div class="well">
+                <p class="likeH1 text-center">Внимание!</p>
+                <p>Если вы хотите пополнить баланс через киви/банковскую карту или у вас возникли проблемы с зачислением
+                    денег на баланс, то:</p>
+                <p>Тема сообщения- пополнения баланса</p>
+                <p>в самом сообщении указать следующее:</p>
+                <ul>
+                    <li><span>Если вы хотите пополнить баланс через киви/банковскую карту:</span></li>
+                </ul>
+                <p>"Необходимо Пополнение через QIWI/Карту"</p>
+                <ul>
+                    <li>Если возникли проблемы с зачислением денег на баланс, указать следующее:</li>
+                </ul>
+                <ol>
+                    <li>Платежная система, через которую проводилась оплата</li>
+                    <li>Номер счета, с которого производилась оплата</li>
+                    <li>Время и даты оплаты</li>
+                    <li>Суммы</li>
+                </ol>
             </div>
+
         </div>
     </div>
 </div>
-
-
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js">
@@ -103,10 +123,10 @@
 </script>
 <script type="text/javascript" src="https://perfectcdn.com/ec53103c-e792-4eb5-b003-a6fc02f28262/">
 </script>
-<script type="text/javascript" >
-    window.modules.layouts = {"auth":1};   </script>
-<script type="text/javascript" >
-    window.modules.siteTickets = {"createTicketUrl":"\/ticket-create"};   </script>
+<script type="text/javascript">
+    window.modules.layouts = {"auth": 1};   </script>
+<script type="text/javascript">
+    window.modules.siteTickets = {"createTicketUrl": "\/ticket-create"};   </script>
 
 </body>
 </html>
