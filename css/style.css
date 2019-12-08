@@ -2,10 +2,11 @@ body {
     background-color: #F5F5F5;
     font-family: 'Roboto', sans-serif;
 }
+
 a {
     color: #242427;
-
 }
+
 table, td, tr {
     background-color:white;
 }
@@ -47,9 +48,9 @@ tr{
 
 .well {
     background-color: white;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
-.button-info, .btn {
-    border-radius: 30px;
+.btn-info, .btn {
+    border-radius: 20px;
 }
