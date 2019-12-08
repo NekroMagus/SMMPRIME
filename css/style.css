@@ -38,4 +38,18 @@ table, td, tr {
 
 .form-control,.btn-default {
     border-radius:  30px;
+    border: 1px solid #60CFFF;
+}
+
+tr{
+    border: 10px solid white;
+}
+
+.well {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.button-info, .btn {
+    border-radius: 30px;
 }
