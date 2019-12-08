@@ -2,8 +2,12 @@ body {
     background-color: #F5F5F5;
     font-family: 'Roboto', sans-serif;
 }
-table, td,tr,tbody{
-    border-radius:20px;
+a {
+    color: #242427;
+
+}
+table, td, tr {
+    background-color:white;
 }
 
 .faq {
@@ -25,4 +29,13 @@ table, td,tr,tbody{
     font-weight: 700;
     padding-top:10px;
     padding-bottom: 10px;
+}
+
+.active, .active:hover, .active:active {
+    background-color:#60CFFF; !important;
+    border-radius: 30px;
+}
+
+.form-control,.btn-default {
+    border-radius:  30px;
 }
