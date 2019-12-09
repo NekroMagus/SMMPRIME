@@ -3,12 +3,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a {
+a,a:hover {
     color: #242427;
 }
 
 table, td, tr {
-    background-color:white;
+    background-color: white;
 }
 
 .faq {
@@ -21,28 +21,39 @@ table, td, tr {
 .likeH1 {
     font-size: 25px;
     font-weight: 700;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .likeH3 {
     font-size: 20px;
     font-weight: 700;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
+.likeH5 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+}
+
+.font-light {
+    font-weight: 400;
+}
+
 .active, .active:hover, .active:active {
-    background-color:#60CFFF; !important;
+    background-color: #60CFFF;
+!important;
     border-radius: 30px;
 }
 
-.form-control,.btn-default {
-    border-radius:  30px;
+.form-control, .btn-default {
+    border-radius: 30px;
     border: 1px solid #60CFFF;
 }
 
-tr{
+tr {
     border: 10px solid white;
 }
 
@@ -51,11 +62,43 @@ tr{
     border-radius: 20px;
 }
 
+.height228 {
+    height: 15vw;
+}
+
 .btn-info, .btn {
     border-radius: 20px;
 }
 
-ul,ol,li {
-    margin: 0;
+
+ul, ol, li {
+    margin-left: 10px;
     padding: 0;
+}
+
+.nav-header {
+    background-color:#242427;
+    border-radius: 30px;
+}
+
+.nav-text{
+    color: white;
+}
+
+.nav > li > a:hover, .nav > li > a:focus,.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color:#60CFFF;
+    border-radius:30px;
+    color:white;
+}
+
+.dropdown-menu {
+    border-radius:20px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color:#60CFFF;
+    border-radius:30px;
+}
+
+.blue-text {
+    color:#60CFFF;
 }
