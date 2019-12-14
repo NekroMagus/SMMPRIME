@@ -97,19 +97,19 @@
     </div>
 
     <div class="row">
-        <div class="col-md-6">
-            <div class="block">
+        <div class="col-md-5">
+            <div class="block well">
                 <form method="post" action="/">
 
 
                     <div class="form-group">
                         <label for="username" class="control-label">Имя пользователя латинскими буквами(A-Z) (не
                             почта) </label>
-                        <input type="text" class="form-control" id="username" name="LoginForm[username]">
+                        <input type="text" class="form-control form-back" id="username" name="LoginForm[username]">
                     </div>
                     <div class="form-group">
                         <label for="password" class="control-label">Пароль</label>
-                        <input type="password" class="form-control" id="password" name="LoginForm[password]">
+                        <input type="password" class="form-control form-back" id="password" name="LoginForm[password]">
 
                     </div>
                     <div class="checkbox">
@@ -127,6 +127,176 @@
                     <span class="pull-right pull-right-middle">Нет аккаунта? <a href="/signup" type="submit"
                                                                                 class="btn btn-info" role="button">Регистрация</a></span>
                 </form>
+            </div>
+
+            <div class="well">
+                <p class="likeH3 no-indent">Отзывы</p>
+            </div>
+            <!--carous-->
+            <div class="row review well ">
+                <div class="carousel-reviews">
+                    <div id="carousel-reviews" class="carousel slide" data-ride="carousel"
+                         data-interval="5000">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-md-12 height228">
+                                    <div class="col-md-4">
+                                        <img alt="Nikolay" class="img-responsive"
+                                             src="https://c.radikal.ru/c30/1905/09/0f888d8cf1e0.png"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p class="text-custom">Пользуюсь услугами сайта smmprime.com в
+                                            течение
+                                            продолжительного времени, и всё устраивает. Отзывчивая
+                                            администрация,
+                                            все заказы выполнили, результат соответствует ожиданиям, буду
+                                            пользоваться сервисом ещё.</p>
+                                        <p class="black NameText text-right"><b>Николай</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-12 height228">
+                                    <div class="col-md-4">
+                                        <img alt="Beck Five" class="img-responsive"
+                                             src="https://b.radikal.ru/b41/1905/60/bcaecabfbf4c.png"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p class="text-custom">Накручивал просмотры на youtube. По сравнению
+                                            с
+                                            другими сайтами цены невысокие, всё в срок.</p>
+                                        <p class="black NameText text-right"><b>Бек Five</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-12 height228">
+                                    <div class="col-md-4">
+                                        <img alt="Darya" class="img-responsive"
+                                             src="https://a.radikal.ru/a04/1905/f5/a5b78269ed80.png"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p class="text-custom">Воспользовалась вашим сервисом в первый раз и
+                                            осталась довольна. Возникла проблема с заказом, но работники
+                                            сайта мне
+                                            помогли и объяснили, в чём была проблема. Надеюсь на дальнейшее
+                                            сотрудничество! </p>
+                                        <p class="black NameText text-right"><b>Дарья</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-12 height228">
+                                    <div class="col-md-4">
+                                        <img alt="Maria" class="img-responsive"
+                                             src="https://c.radikal.ru/c04/1905/b0/0fdfda19e859.png"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p class="text-custom">Продвигаю магазин в инсте с помощью ребят не
+                                            в первый
+                                            раз. Спасибо.</p>
+                                        <p class="black NameText text-right"><b>Мария</b></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="col-md-12 height228">
+                                <div class="col-md-4">
+                                    <img alt="Nadezda" class="img-responsive"
+                                         src="https://a.radikal.ru/a32/1905/3f/42ea27d9ca68.png"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="text-custom">Хороший сервис. Использовала для личного
+                                        аккаунта в
+                                        инсте, проблем не возникло. Спасибо ребята!</p>
+                                    <p class="black NameText text-right"><b>Надежда</b></p>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="col-md-12 height228">
+                                <div class="col-md-4">
+                                    <img alt="Anastasia" class="img-responsive"
+                                         src="https://c.radikal.ru/c04/1905/0a/a88fba45dc64.png"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="text-custom">Отличный сайт, парни молодцы. Всё понятно и
+                                        быстро,
+                                        накрутка качественная.</p>
+                                    <p class="black NameText text-right"><b>Анастасия</b></p>
+                                </div>
+                            </div>
+                            </div>
+
+                        </div>
+                        <a class="left carousel-control control-style" href="#carousel-reviews"
+                           role="button"
+                           data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control control-style" href="#carousel-reviews"
+                           role="button"
+                           data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-7">
+            <div class="col-md-12 well text-center">
+                <p class="likeH3 no-indent">О нас</p>
+            </div>
+
+            <div class="col-md-4 well">
+                <p class="blue-text">Что такое SMMPRIME?</p>
+                <p>Smmprime - это самый дешевый и полностью автоматизированный сервис для продвижения в
+                    социальных сетях</p>
+                <p class="blue-text">Богатый опыт</p>
+                <p>Мы успешно предоставляем услуги по продвижению в соцсетях более 3 лет и постоянно
+                    развиваемся. Мы всегда открыты для новых идей и готовы взяться за любую задачу.</p>
+                <img alt="img1" class="img-responsive"
+                     src="https://c.radikal.ru/c27/1905/92/0834de4b0a64.png"/>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <p class="text-center likeH5">Почему мы?</p>
+                    <ul>
+                        <li>Максимально низкие цены</li>
+                        <br>
+                        <li>Более <span class="blue-text">1000000</span> успешно выполненных заказов</li>
+                        <br>
+                        <li>Качественная техподдержка</li>
+                        <br>
+                        <li>Большой выбор услуг</li>
+                    </ul>
+                </div>
+                <div class="well">
+                    С помощью нашего сервиса вы можете накрутить лайки,
+                    подписчиков, просмотры и другие показатели в Instagram и другие социальные сети.
+                </div>
+            </div>
+            <div class="col-md-4 well">
+                <p class="text-center likeH5">Особенности:</p>
+                <ul>
+                    <li>Реферальная Программа 6%</li>
+                    <br>
+                    <li>Полностью автоматизированный сервис</li>
+                    <br>
+                    <li>Более 40 видов оплаты</li>
+                    <br>
+                    <li>Поддержка API</li>
+                    <br>
+                    <li>Работа 24/7</li>
+                </ul>
+            </div>
+            <div class="col-md-4 well">
+                <p class="blue-text text-center">Мы в ВКонтакте</p>
             </div>
         </div>
     </div>
@@ -251,104 +421,102 @@
                 <!--carous-->
                 <div class="row review ">
                     <div class="carousel-reviews">
-                        <div id="carousel-reviews" class="carousel slide" data-ride="carousel"
-                             data-interval="5000">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="col-md-4  col-xs-12  col-sm-6">
-                                        <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
-                                            <img alt="Nikolay" class="img-responsive"
-                                                 src="https://c.radikal.ru/c30/1905/09/0f888d8cf1e0.png"/>
-                                        </div>
-                                        <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
-                                            <p class="text-custom">Пользуюсь услугами сайта smmprime.com в
-                                                течение
-                                                продолжительного времени, и всё устраивает. Отзывчивая
-                                                администрация,
-                                                все заказы выполнили, результат соответствует ожиданиям, буду
-                                                пользоваться сервисом ещё.</p>
-                                            <p class="black NameText text-right">Николай</p>
-                                        </div>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-md-4  col-xs-12  col-sm-6">
+                                    <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
+                                        <img alt="Nikolay" class="img-responsive"
+                                             src="https://c.radikal.ru/c30/1905/09/0f888d8cf1e0.png"/>
                                     </div>
-                                    <div class="col-md-4 col-sm-6 hidden-xs">
-                                        <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
-                                            <img alt="Darya" class="img-responsive"
-                                                 src="https://a.radikal.ru/a04/1905/f5/a5b78269ed80.png"/>
-                                        </div>
-                                        <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
-                                            <p class="text-custom">Воспользовалась вашим сервисом в первый раз и
-                                                осталась довольна. Возникла проблема с заказом, но работники
-                                                сайта мне
-                                                помогли и объяснили, в чём была проблема. Надеюсь на дальнейшее
-                                                сотрудничество! </p>
-                                            <p class="black NameText text-right">Дарья</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 hidden-sm hidden-xs">
-                                        <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
-                                            <img alt="Maria" class="img-responsive"
-                                                 src="https://c.radikal.ru/c04/1905/b0/0fdfda19e859.png"/>
-                                        </div>
-                                        <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
-                                            <p class="text-custom">Продвигаю магазин в инсте с помощью ребят не
-                                                в первый
-                                                раз. Спасибо.</p>
-                                            <p class="black NameText text-right">Мария</p>
-                                        </div>
+                                    <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
+                                        <p class="text-custom">Пользуюсь услугами сайта smmprime.com в
+                                            течение
+                                            продолжительного времени, и всё устраивает. Отзывчивая
+                                            администрация,
+                                            все заказы выполнили, результат соответствует ожиданиям, буду
+                                            пользоваться сервисом ещё.</p>
+                                        <p class="black NameText text-right">Николай</p>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="col-md-4  col-xs-12  col-sm-6">
-                                        <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
-                                            <img alt="Beck Five" class="img-responsive"
-                                                 src="https://b.radikal.ru/b41/1905/60/bcaecabfbf4c.png"/>
-                                        </div>
-                                        <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
-                                            <p class="text-custom">Накручивал просмотры на youtube. По сравнению
-                                                с
-                                                другими сайтами цены невысокие, всё в срок.</p>
-                                            <p class="black NameText text-right">Бек Five</p>
-                                        </div>
+                                <div class="col-md-4 col-sm-6 hidden-xs">
+                                    <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
+                                        <img alt="Darya" class="img-responsive"
+                                             src="https://a.radikal.ru/a04/1905/f5/a5b78269ed80.png"/>
                                     </div>
-                                    <div class="col-md-4  col-sm-6 hidden-xs">
-                                        <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
-                                            <img alt="Nadezda" class="img-responsive"
-                                                 src="https://a.radikal.ru/a32/1905/3f/42ea27d9ca68.png"/>
-                                        </div>
-                                        <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
-                                            <p class="text-custom">Хороший сервис. Использовала для личного
-                                                аккаунта в
-                                                инсте, проблем не возникло. Спасибо ребята!</p>
-                                            <p class="black NameText text-right">Надежда</p>
-                                        </div>
+                                    <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
+                                        <p class="text-custom">Воспользовалась вашим сервисом в первый раз и
+                                            осталась довольна. Возникла проблема с заказом, но работники
+                                            сайта мне
+                                            помогли и объяснили, в чём была проблема. Надеюсь на дальнейшее
+                                            сотрудничество! </p>
+                                        <p class="black NameText text-right">Дарья</p>
                                     </div>
-
-                                    <div class="col-md-4  hidden-sm hidden-xs">
-                                        <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
-                                            <img alt="Anastasia" class="img-responsive"
-                                                 src="https://c.radikal.ru/c04/1905/0a/a88fba45dc64.png"/>
-                                        </div>
-                                        <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
-                                            <p class="text-custom">Отличный сайт, парни молодцы. Всё понятно и
-                                                быстро,
-                                                накрутка качественная.</p>
-                                            <p class="black NameText text-right">Анастасия</p>
-                                        </div>
+                                </div>
+                                <div class="col-md-4 hidden-sm hidden-xs">
+                                    <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
+                                        <img alt="Maria" class="img-responsive"
+                                             src="https://c.radikal.ru/c04/1905/b0/0fdfda19e859.png"/>
+                                    </div>
+                                    <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
+                                        <p class="text-custom">Продвигаю магазин в инсте с помощью ребят не
+                                            в первый
+                                            раз. Спасибо.</p>
+                                        <p class="black NameText text-right">Мария</p>
                                     </div>
                                 </div>
                             </div>
-                            <a class="left carousel-control control-style" href="#carousel-reviews"
-                               role="button"
-                               data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            </a>
-                            <a class="right carousel-control control-style" href="#carousel-reviews"
-                               role="button"
-                               data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
+                            <div class="item">
+                                <div class="col-md-4  col-xs-12  col-sm-6">
+                                    <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
+                                        <img alt="Beck Five" class="img-responsive"
+                                             src="https://b.radikal.ru/b41/1905/60/bcaecabfbf4c.png"/>
+                                    </div>
+                                    <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
+                                        <p class="text-custom">Накручивал просмотры на youtube. По сравнению
+                                            с
+                                            другими сайтами цены невысокие, всё в срок.</p>
+                                        <p class="black NameText text-right">Бек Five</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4  col-sm-6 hidden-xs">
+                                    <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
+                                        <img alt="Nadezda" class="img-responsive"
+                                             src="https://a.radikal.ru/a32/1905/3f/42ea27d9ca68.png"/>
+                                    </div>
+                                    <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
+                                        <p class="text-custom">Хороший сервис. Использовала для личного
+                                            аккаунта в
+                                            инсте, проблем не возникло. Спасибо ребята!</p>
+                                        <p class="black NameText text-right">Надежда</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4  hidden-sm hidden-xs">
+                                    <div class="col-xs-6  col-xs-offset-3 col-md-10 col-md-offset-1">
+                                        <img alt="Anastasia" class="img-responsive"
+                                             src="https://c.radikal.ru/c04/1905/0a/a88fba45dc64.png"/>
+                                    </div>
+                                    <div class="col-xs-10  col-xs-offset-1 col-md-12 col-md-offset-0">
+                                        <p class="text-custom">Отличный сайт, парни молодцы. Всё понятно и
+                                            быстро,
+                                            накрутка качественная.</p>
+                                        <p class="black NameText text-right">Анастасия</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <a class="left carousel-control control-style" href="#carousel-reviews"
+                           role="button"
+                           data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control control-style" href="#carousel-reviews"
+                           role="button"
+                           data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
                     </div>
+
                 </div>
                 <!--carous-->
                 <div class="row">

@@ -548,3 +548,116 @@
 
 </body>
 </html>
+
+
+<!--Sign in-->
+<div class="container">
+    <div class="row">
+    <div class="col-md-3">
+    <div class="well height228">
+    <p class="likeH5">Аккаунт для ознакомления</p>
+<p class="blue-text">Логин: <b>demo</b></p>
+<p class="blue-text">Пароль: <b>demodemo</b></p>
+</div>
+</div>
+<div class="col-md-3">
+    <div class="well height228">
+    <p class="likeH5">Всего выполненных заказов:</p>
+<p></p>
+<p>3-летний опыт</p>
+<p>предоставления SMM услуг</p>
+</div>
+</div>
+<div class="col-md-3">
+    <div class="well height228">
+    <p class="likeH5">Как зарегистрироваться?</p>
+<p class="blue-text">. . .</p>
+<p>Присоединяйся!</p>
+</div>
+</div>
+<div class="col-md-3">
+    <div class="well height228">
+    <p class="likeH5">Возник вопрос?</p>
+<p class="likeH1 blue-text font-light">ПОДДЕРЖКА</p>
+    <p>Напишите нам!</p>
+</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-md-5">
+    <div class="well">
+    <form {% if site['rtl'] %}class="rtl-form"{% endif %} method="post" action="{{ page['url'] }}">
+    {% if error %}
+<div class="alert alert-dismissible alert-danger {% if site['rtl'] %} rtl-alert {% endif %}">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+{{ errorMessage }}
+</div>
+{% endif %}
+
+{% if success %}
+<div class="alert alert-success alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+{{successMessage}}
+</div>
+{% endif %}
+
+<div class="form-group">
+    <label for="username" class="control-label">{{ lang('signup.username') }}</label>
+<input type="text" class="form-control" id="username" name="LoginForm[username]">
+    </div>
+    <div class="form-group form-group__password">
+    <label for="password" class="control-label">{{lang('signup.password')}}</label>
+<input type="password" class="form-control" id="password" name="LoginForm[password]">
+    {% if site['resetPassword'] %}
+<a href="{{ page_url('resetpassword') }}" class="forgot-password">{{ lang('signin.reset_password') }}</a>
+{% endif %}
+</div>
+<div class="checkbox">
+    <label>
+    <input type="checkbox"  name="LoginForm[remember]" value="1" id="remember">{{lang('signin.remember_me')}}
+</label>
+</div>
+
+{% if captcha %}
+<div class="g-recaptcha form-group" data-sitekey="{{captchaKey}}"></div>
+{% endif %}
+{% if site['forgotPassword'] %}
+<a href="{{ page_url('resetpassword') }}" class="pull-right">{{ lang('Забыли пароль?') }}</a>
+{% endif %}
+
+<input type="hidden" name="_csrf" value="{{csrftoken}}">
+    <button type="submit" class="btn btn-info">{{ lang('signin.button') }}</button>
+
+{% if registration %}
+<span class="pull-right pull-right-middle">{{ lang('signin.text') }} <a href="{{ page_url('signup') }}" type="submit" class="btn btn-info" role="button">{{ lang('signup.title') }}</a></span>
+{% endif %}
+</form>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+{% if authText %}
+<div class="container">
+    <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+    <div class="well {% if site['rtl'] %} rtl-content {% endif %}">
+    {{ authText }}
+</div>
+</div>
+</div>
+</div>
+{% endif %}
+
+{% if site['captcha'] %}
+<script src='https://www.google.com/recaptcha/api.js?hl={{ site['language'] }}'></script>
+{% endif %}
+

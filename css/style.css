@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a,a:hover {
+a, a:hover {
     color: #242427;
 }
 
@@ -63,7 +63,20 @@ tr {
 }
 
 .height228 {
-    height: 15vw;
+    height: 18vw;
+}
+
+
+@media screen and (min-width:1544px) {
+    .height228 {
+        height:14vw;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .height228 {
+        height:100%;
+    }
 }
 
 .btn-info, .btn {
@@ -77,28 +90,211 @@ ul, ol, li {
 }
 
 .nav-header {
-    background-color:#242427;
+    background-color: #242427;
     border-radius: 30px;
 }
 
-.nav-text{
+.nav-text {
     color: white;
 }
 
-.nav > li > a:hover, .nav > li > a:focus,.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color:#60CFFF;
-    border-radius:30px;
-    color:white;
+.nav > li > a:hover, .nav > li > a:focus, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #60CFFF;
+    border-radius: 30px;
+    color: white;
 }
 
 .dropdown-menu {
-    border-radius:20px;
-}
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    background-color:#60CFFF;
-    border-radius:30px;
+    border-radius: 20px;
 }
 
-.blue-text {
-    color:#60CFFF;
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #60CFFF;
+    border-radius: 30px;
+}
+
+.blue-text, .blue-text:hover {
+    color: #60CFFF;
+}
+
+.no-indent {
+    padding: 0;
+    margin: 0;
+}
+
+.form-back {
+    background-color: #F5F5F5;
+}
+
+.nowell {
+    padding: 0;
+}
+
+.navbar-header {
+    background-color: #242427;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand {
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .hide-mobile {
+        display: none;
+    }
+    .grafik {
+        height:100px;
+        width:200px;
+    }
+
+}
+body {
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover {
+    color: #242427;
+}
+
+table, td, tr {
+    background-color: white;
+}
+
+.faq {
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.likeH1 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.likeH3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.likeH5 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+}
+
+.font-light {
+    font-weight: 400;
+}
+
+.active, .active:hover, .active:active {
+    background-color: #60CFFF;
+!important;
+    border-radius: 30px;
+}
+
+.form-control, .btn-default {
+    border-radius: 30px;
+    border: 1px solid #60CFFF;
+}
+
+tr {
+    border: 10px solid white;
+}
+
+.well {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.height228 {
+    height: 18vw;
+}
+
+
+@media screen and (min-width:1544px) {
+    .height228 {
+        height:14vw;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .height228 {
+        height:100%;
+    }
+}
+
+.btn-info, .btn {
+    border-radius: 20px;
+}
+
+
+ul, ol, li {
+    margin-left: 10px;
+    padding: 0;
+}
+
+.nav-header {
+    background-color: #242427;
+    border-radius: 30px;
+}
+
+.nav-text {
+    color: white;
+}
+
+.nav > li > a:hover, .nav > li > a:focus, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #60CFFF;
+    border-radius: 30px;
+    color: white;
+}
+
+.dropdown-menu {
+    border-radius: 20px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #60CFFF;
+    border-radius: 30px;
+}
+
+.blue-text, .blue-text:hover {
+    color: #60CFFF;
+}
+
+.no-indent {
+    padding: 0;
+    margin: 0;
+}
+
+.form-back {
+    background-color: #F5F5F5;
+}
+
+.nowell {
+    padding: 0;
+}
+
+.navbar-header {
+    background-color: #242427;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand {
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .hide-mobile {
+        display: none;
+    }
+    .grafik {
+        height:100px;
+        width:200px;
+    }
+
 }
